@@ -1,11 +1,16 @@
 # Robust XAI Defense for IoT Time-Series Anomaly Detection Under Sensor Perturbations
 
-Official PyTorch implementation of the experimental framework and evaluation metrics ($J_k$, $E_{\text{sens}}$) presented in the manuscript.
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c?logo=pytorch)](https://pytorch.org/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776ab?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Official PyTorch implementation of the experimental framework and evaluation metrics ($J_k$, $E_{\text{sens}}$) presented in the paper *"Robust Explanation Frameworks for IoT Time-Series Anomaly Detection under Operational Perturbations"*.
 
 ---
 
 ## Abstract
-Machine learning models deployed in Internet of Things (IoT) environments are vulnerable to out-of-distribution (OOD) perturbations such as linear sensor drift, Gaussian noise, and packet loss. While black-box post-hoc explainability methods (e.g., SHAP, LIME) are used to interpret anomaly detection decisions, their stability degrades severely under operational noise. This repository contains the code to reproduce attribution stability degradation curves and quantify explanation robustness.
+
+Machine learning models deployed in Internet of Things (IoT) environments face severe out-of-distribution (OOD) perturbations such as linear sensor drift, Gaussian noise, and packet loss. While post-hoc explainability methods (e.g., SHAP, LIME) are standard for interpreting anomaly detection decisions, their attributions degrade under operational noise. This repository provides an end-to-end framework to evaluate and quantify attribution stability collapse under sensor perturbations.
 
 ---
 
